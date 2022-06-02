@@ -44,7 +44,7 @@ class RegisterType extends AbstractType
                 'attr'=>['placeholder'=>'Merci de saisir votre email']
             ]) //input c'est comme demander d'ajouter 
             //->add('roles')
-          
+          //
             ->add('password', RepeatedType::class,[
 
                 
